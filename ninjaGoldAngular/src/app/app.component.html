@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ninja Gold</title>
+
+</head>
+<body>
+  <h3>Gold: {{gold}}</h3>
+  <button (click)="farmPressed()">Farm</button>
+  <button (click)="cavePressed()">Cave</button>
+  <button (click)="housePressed()">House</button>
+  <button (click)="casinoPressed()">Casino</button>
+
+  <p *ngFor="let log of logs">{{log}} </p>
+
+</body>
+</html>
